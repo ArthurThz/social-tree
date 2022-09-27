@@ -1,0 +1,62 @@
+@media (max-height:730px) {
+    .profile-picture {
+        height: 180px;
+        width: 180px;
+    }
+
+    .nickname .name {
+        font-size: 25px;
+    }
+
+    .nickname .function {
+        font-size: 19px;
+    }
+
+    .item {
+        height: 50px;
+    }
+
+    .item a {
+        font-size: 17px;
+    }
+
+    .social-media {
+        height: 10%;
+    }
+}
+
+@media(max-height:650px) {
+
+    .profile-picture {
+        margin-top: 2px;
+        height: 150px;
+        width: 150px;
+        border-radius:100px;
+    }
+    .profile-picture img{
+        padding: 4px;
+    }
+    .nickname {
+        margin: 0;
+    }
+
+    .nickname .name {
+        font-size: 23px;
+    }
+
+    .nickname .function {
+        font-size: 16px;
+    }
+
+    .item {
+        height: 40px;
+    }
+
+    .item a {
+        font-size: 17px;
+    }
+
+    .social-media {
+        height: 5%;
+    }
+}
